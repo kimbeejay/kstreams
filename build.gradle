@@ -12,7 +12,7 @@ plugins {
 }
 
 group 'com.github.kimbeejay'
-version '1.0-SNAPSHOT'
+version '1.0.1-SNAPSHOT'
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
@@ -27,6 +27,7 @@ apply plugin: "com.github.johnrengelman.shadow"
 dependencies {
     compileOnly group: 'org.jetbrains', name: 'annotations', version: '20.1.0'
     compileOnly group: 'com.typesafe', name: 'config', version: '1.4.1'
+    compileOnly group: 'com.jason-goodwin', name: 'better-monads', version: '0.4.1'
     compileOnly 'org.apache.kafka:kafka-streams:2.5.0'
     compileOnly 'org.apache.avro:avro:1.10.1'
 
